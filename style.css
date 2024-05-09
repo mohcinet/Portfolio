@@ -1,0 +1,143 @@
+/* Styles généraux */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color:width;
+}
+
+/* Styles de l'en-tête */
+header {
+  background-color: #B2D4E0;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+.flex-container {
+	padding: 20px;
+	display: flex;
+	background-color: #465E6B;
+
+}
+.logo img {
+  width: 250px;
+  height: auto;
+}
+
+.titre {
+  margin-left: 10px;
+}
+
+/* Styles de la barre de recherche */
+.recherche {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.flex-container2 {
+	padding: 20px;
+	background-color: #B2D4E0;
+
+}
+/* Styles du slider */
+.slider {
+  /* Styles spécifiques pour le slider */
+}
+.container {
+  background-color: #465E6B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding:80px;
+}
+.container0{
+	background-color:white;
+	margin:10px;
+  width:100px;
+  height:40px;
+  align-items: center;
+
+}
+/* Style de l'image de recherche */
+.container img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.img {
+	top:0;
+  margin: -5 10px;
+  width:40px;
+  height:auto;
+  align-items: center;
+}
+
+/* Styles des colonnes */
+.column {
+  width: 33.33%;
+  float: left;
+  padding: 130px;
+  box-sizing: border-box;
+  background-color:#B2D4E0;
+}
+
+/* Styles des titres */
+h2 {
+  margin-top: 0;
+}
+
+/* Styles des images */
+img {
+  width: 90%;
+  height: auto;
+}
+
+/* Styles des textes */
+p {
+  margin-bottom: 0;
+}
+.footer {
+	
+  background-color: #465E6B;
+  padding: 50px;
+  text-align: left;
+  color: white;
+}
+.flex-container3 {
+	
+	padding: auto;
+	background-color:#B2D4E0 ;
+
+}
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.info-site {
+    background-color: white;
+}
+
+a.contact-form {
+    background-color: white;
+}
+
+a.map {
+    background-color: white;
+    color: black;
+}
+
+a.social-media {
+    background-color: white;
+    color: black;
+}
